@@ -3,10 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "packageRules": [
-    {
-      "matchManagers": ["nix"],
-      "enabled": true
-    }
-  ]
+  "nix": {
+    "enabled": true
+  }  
 }
